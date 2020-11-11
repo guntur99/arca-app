@@ -101,7 +101,12 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="bonus_persen">Bonus Buruh</label>
-                                    <input type="number" autocomplete="off" class="form-control" onkeyup="bonusPersen()" id="bonus_persen" disabled>
+                                    <div class="input-group ">
+                                        <input type="number" autocomplete="off" class="form-control" onkeyup="bonusPersen()" id="bonus_persen" disabled>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">%</span>
+                                        </div>
+                                    </div>
                                 </div>
                                 <hr>
                             </div>
